@@ -626,7 +626,7 @@ cssnano-util-same-parent@^4.0.0:
   resolved "https://registry.yarnpkg.com/cssnano-util-same-parent/-/cssnano-util-same-parent-4.0.1.tgz#574082fb2859d2db433855835d9a8456ea18bbf3"
   integrity sha512-WcKx5OY+KoSIAxBW6UBBRay1U6vkYheCdjyVNDm85zt5K9mHoGOfsOsqIszfAqrQQFIIKgjh2+FDgIj/zsl21Q==
 
-cssnano@^4.1.10:
+cssnano@4.1.10:
   version "4.1.10"
   resolved "https://registry.yarnpkg.com/cssnano/-/cssnano-4.1.10.tgz#0ac41f0b13d13d465487e111b778d42da631b8b2"
   integrity sha512-5wny+F6H4/8RgNlaqab4ktc3e0/blKutmq8yNlBFXA//nSFFAqAngjNVRzUvCgYROULmZZUoosL/KSoZo5aUaQ==
@@ -1982,7 +1982,7 @@ postcss-calc@^7.0.1:
     postcss-selector-parser "^5.0.0-rc.4"
     postcss-value-parser "^3.3.1"
 
-postcss-cli@^6.1.2:
+postcss-cli@6.1.2:
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-6.1.2.tgz#9c24174614f4d2f6b5b6de8676fed992766173bc"
   integrity sha512-jIWfIkqt8cTThSpH8DBaNxHlBf99OKSem2RseRpfVPqWayxHKQB0IWdS/IF5XSGeFU5QslSDTdVHnw6qggXGkA==
@@ -2289,7 +2289,7 @@ postcss-minify-selectors@^4.0.2:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-postcss-mixins@^6.2.1:
+postcss-mixins@6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/postcss-mixins/-/postcss-mixins-6.2.1.tgz#f2a6abb449410929a184b23fbef7c96898cf01e5"
   integrity sha512-XfItKgFHAPKa4mayLVwoASYzzRLyW64mEtsVZz7LT7ElrprVZx9D5ivqOi5oQCkUxyiLs9sjg4aiRxr+gK9xkQ==
@@ -2531,7 +2531,7 @@ postcss-reporter@^6.0.0:
     log-symbols "^2.2.0"
     postcss "^7.0.7"
 
-postcss-scss@^2.0.0:
+postcss-scss@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-2.0.0.tgz#248b0a28af77ea7b32b1011aba0f738bda27dea1"
   integrity sha512-um9zdGKaDZirMm+kZFKKVsnKPF7zF7qBAtIfTSnZXD1jZ0JNZIxdB6TxQOjCnlSzLRInVl2v3YdBh/M881C4ug==
@@ -2640,7 +2640,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.5,
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-precss@^4.0.0:
+precss@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/precss/-/precss-4.0.0.tgz#518ce5c4d31eac9bd268c538ae6fb462f3bf57b3"
   integrity sha512-cRPZMKpHLZXR6gJlrXRjJe7SQMf+wYxg6rKp+TwYsYABjApSj9z8E8yIlagqADaWyikeIZttaNU6xqSjFIAP/g==
