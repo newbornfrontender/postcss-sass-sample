@@ -6,11 +6,17 @@ Example of how to use PostCSS and SASS
 
 <h2 align="center">Used PostCSS dependencies</h2>
 
-- [PostCSS SCSS Syntax](https://github.com/postcss/postcss-scss)
 - [PreCSS](https://github.com/jonathantneal/precss)
 - [PostCSS Mixins](https://github.com/postcss/postcss-mixins)
 - [CSSNANO](https://github.com/cssnano/cssnano)
 - [PostCSS Sorting](https://github.com/hudochenkov/postcss-sorting)
+
+<h2 align="center">Used Stylelint dependencies</h2>
+
+- [stylelint-order](stylelint-order)
+- [stylelint-config-standard](stylelint-config-standard)
+- [stylelint-config-prettier](stylelint-config-prettier)
+- [stylelint-prettier](stylelint-prettier)
 
 <h2 align="center">Install dependencies</h2>
 
@@ -32,6 +38,31 @@ $ yarn <command name>
     </tr>
   </thead>
   <tbody>
+  <tr>
+      <td>
+        <code>format</code>
+      </td>
+      <td>
+        Formatting code with Prettier
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <code>lint:check</code>
+      </td>
+      <td>
+        Check conflict CSS rules in Stylelint
+      </td>
+    </tr>
+    <tr>
+    <tr>
+      <td>
+        <code>lint:fix</code>
+      </td>
+      <td>
+        Fix conflicts in CSS files with Stylelint and format with Prettier
+      </td>
+    </tr>
     <tr>
       <td>
         <code>clean</code>
