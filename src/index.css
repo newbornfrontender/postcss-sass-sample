@@ -1,0 +1,63 @@
+// =============================================================================
+// PostCSS SCSS Syntax: https://github.com/postcss/postcss-scss
+// =============================================================================
+
+// https://github.com/postcss/postcss-scss#2-inline-comments-for-postcss
+
+// =============================================================================
+// PreCSS: https://github.com/jonathantneal/precss
+// =============================================================================
+
+$blue: #056ef0;
+$column: 200px;
+
+.menu {
+  width: calc(4 * $column);
+}
+
+.menu_link {
+  background: $blue;
+  width: $column;
+}
+
+// =============================================================================
+// PostCSS Mixins: https://github.com/postcss/postcss-mixins
+// =============================================================================
+
+/* First sample */
+
+@define-mixin icon $network, $color: blue {
+  .icon {
+    & .is-$(network) {
+      color: $color;
+      @mixin-content;
+
+      &:hover {
+        color: white;
+        background: $color;
+      }
+    }
+  }
+}
+
+@mixin icon twitter {
+  background: url(twt.png);
+}
+@mixin icon youtube, red {
+  background: url(youtube.png);
+}
+
+/* Second sample */
+
+@define-mixin icon $name {
+  padding-left: 16px;
+
+  &::after {
+    content: '';
+    background: url(/icons/$(name).png);
+  }
+}
+
+.search {
+  @mixin icon search;
+}
