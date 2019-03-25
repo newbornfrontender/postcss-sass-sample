@@ -4,7 +4,7 @@
 
 Example of how to use PostCSS and SASS
 
-<h2 align="center">Used dependencies</h2>
+<h2 align="center">Used PostCSS dependencies</h2>
 
 - [PostCSS SCSS Syntax](https://github.com/postcss/postcss-scss)
 - [PreCSS](https://github.com/jonathantneal/precss)
