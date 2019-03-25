@@ -2,6 +2,15 @@
   PostCSS and SASS sample
 </h1>
 
+Example of how to use PostCSS and SASS
+
+<h2 align="center">Used dependencies</h2>
+
+- [PostCSS SCSS Syntax](https://github.com/postcss/postcss-scss)
+- [PreCSS](https://github.com/jonathantneal/precss)
+- [PostCSS Mixins](https://github.com/postcss/postcss-mixins)
+- [CSSNANO](https://github.com/cssnano/cssnano)
+
 <h2 align="center">Install dependencies</h2>
 
 ```
