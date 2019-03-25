@@ -1,0 +1,8 @@
+{
+  "name": "postcss-sass-sample",
+  "version": "1.0.0",
+  "description": "PostCSS and SASS sample",
+  "repository": "git@github.com:newbornfrontender/postcss-sass-sample.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT"
+}
