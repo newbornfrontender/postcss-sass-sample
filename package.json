@@ -16,6 +16,7 @@
     "postcss-cli": "6.1.2",
     "postcss-mixins": "6.2.1",
     "postcss-scss": "2.0.0",
+    "postcss-sorting": "^4.1.0",
     "precss": "4.0.0"
   }
 }
