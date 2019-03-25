@@ -10,6 +10,7 @@ Example of how to use PostCSS and SASS
 - [PreCSS](https://github.com/jonathantneal/precss)
 - [PostCSS Mixins](https://github.com/postcss/postcss-mixins)
 - [CSSNANO](https://github.com/cssnano/cssnano)
+- [PostCSS Sorting](https://github.com/hudochenkov/postcss-sorting)
 
 <h2 align="center">Install dependencies</h2>
 
